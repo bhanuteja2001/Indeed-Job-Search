@@ -1,24 +1,52 @@
-body {
-  background-color: #803333;
-}
-body * {
-  box-sizing: border-box;
+*{
+  margin:0;
+  padding:0;
+  font-family: Century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.header {
-  background-color: #4298f5;
-  color: white;
-  font-size: 1.5em;
-  padding: 1rem;
+
+
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../1.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
   text-align: center;
-  text-transform: uppercase;
 }
 
-img {
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
-}
+div.content{
+  height: 10em;
+  position: relative }              /* 1 */
+div.content{
+  position: absolute;
+  font-size: 40px;
+  color: whitesmoke;
+  top: 50%;
+  left: 50%;                         /* 3 */
+  transform: translate(-50%, -50%) } 
+
+
+div.para{
+  height: 10em;
+  position: relative }              /* 1 */
+div.para{
+  position: absolute;               /* 2 */
+  top: 50%;
+  left: 50%;
+  color: whitesmoke;
+  transform: translate(-50%, -50%) } 
+
+
+  div.form{
+    height: 10em;
+    position: relative }              /* 1 */
+  div.form{
+    position: absolute;               /* 2 */
+    top: 58%;
+    left: 50%;
+    box-sizing: border-box;                        /* 3 */
+    transform: translate(-50%, -50%) } 
+  
 
 .table-users {
   border: 1px solid #4298f5;
